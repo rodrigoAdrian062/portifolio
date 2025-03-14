@@ -1,0 +1,38 @@
+.curriculo {
+    background-color: rgb(81, 3, 117);
+    padding: 10px;
+}
+
+.curriculo img {
+    width: 55px;
+}
+
+.flex-container {}
+
+.conhecimento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+
+}
+
+.conhecimento div {
+    margin: 10px;
+}
+
+.imagem_git>a img {
+    width: 105px;
+}
+
+
+.socials {}
+
+@media screen and (min-width: 660px) {
+    .conhecimento {
+
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 60%;
+
+    }
+}
